@@ -1,8 +1,5 @@
 # Lý thuyết mật mã 2026.1 – Cài đặt DES và AES-128
 
-- **Sinh viên:** `<Họ và tên>` – **MSSV:** `<MSSV>`
-- **Giảng viên:** cô Huệ
-
 Cài đặt hai thuật toán **DES** (FIPS 46-3) và **AES-128** (FIPS-197) bằng Python thuần, **không dùng thư viện mật mã**.
 Chương trình in giá trị kiểm định của **mọi trạng thái trung gian** (từng phép hoán vị, từng khóa con, từng vòng)
 và được kiểm thử bằng các ví dụ trên lớp cùng các test vector chuẩn.
