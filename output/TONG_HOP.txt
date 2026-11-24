@@ -1,0 +1,9 @@
+Thuật toán | Vector     | Khóa                             | Bản rõ                           | Bản mã                           | Kết quả | File
+-----------+------------+----------------------------------+----------------------------------+----------------------------------+---------+-------------------
+DES        | lop_p11_k0 | 0000000000000000                 | 0000000000000011                 | 799A09FB40DF6019                 | ĐÚNG    | des_lop_p11_k0.txt
+DES        | stallings  | 0F1571C947D9E859                 | 02468ACEECA86420                 | DA02CE3A89ECAC3B                 | ĐÚNG    | des_stallings.txt
+DES        | grabbe     | 133457799BBCDFF1                 | 0123456789ABCDEF                 | 85E813540F0AB405                 | ĐÚNG    | des_grabbe.txt
+AES-128    | lop_tuan11 | 00000000000000000000000000000000 | 00000000000000000000000000000011 | 0410BEFCCDE6944B69DD007DEBE39A9D | ĐÚNG    | aes_lop_tuan11.txt
+AES-128    | stallings  | 0F1571C947D9E8590CB7ADD6AF7F6798 | 0123456789ABCDEFFEDCBA9876543210 | FF0B844A0853BF7C6934AB4364148FB9 | ĐÚNG    | aes_stallings.txt
+AES-128    | fips197_b  | 2B7E151628AED2A6ABF7158809CF4F3C | 3243F6A8885A308D313198A2E0370734 | 3925841D02DC09FBDC118597196A0B32 | ĐÚNG    | aes_fips197_b.txt
+AES-128    | fips197_c1 | 000102030405060708090A0B0C0D0E0F | 00112233445566778899AABBCCDDEEFF | 69C4E0D86A7B0430D8CDB78070B4C55A | ĐÚNG    | aes_fips197_c1.txt
